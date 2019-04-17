@@ -11,9 +11,6 @@ public class Bot extends TelegramLongPollingBot {
 
     public static void main(String[] args) {
 
-        String PORT = System.getenv("PORT");
-        String SERVER_URL = System.getenv("SERVER_URL");
-
         ApiContextInitializer.init();
         TelegramBotsApi bot = new TelegramBotsApi();
         try {
