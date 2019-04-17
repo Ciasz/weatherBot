@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -cp target/classes:target/dependency/* Bot
+web: java $JAVA_OPTS -Dserver.port=0.0.0.0 -cp target/classes:target/dependency/* Bot
